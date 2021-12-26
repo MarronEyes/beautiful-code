@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BeautifulCode - Test</title>
+    <link rel="stylesheet" href="/assets/styles/normalize.css">
+    <link rel="stylesheet" href="/assets/styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300&display=swap">
+</head>
+
+<body>
+
+<div id="container">
+
+    <div id="title">
+        <h1>Beautiful Code</h1>
+        <h2>Tool for generating beautiful images of your code.</h2>
+    </div>
+
+    <div id="json-code">
+        <textarea id="json" placeholder="JSON config here" spellcheck="false"></textarea>
+        <textarea id="code" placeholder="Your code here" spellcheck="false">
+print("hello world!")</textarea>
+        <hr>
+        <a id="show-button" class="button" href="#" onclick="show()">Show</a>
+
+        <div class="popup" id="popup-1">
+            <div class="overlay"></div>
+            <div class="content">
+                <div class="close-btn" onclick="toggle()">&times;</div>
+                <h1>Output image</h1>
+                <img id="code-image" width="840" height="640" alt="Image of your code" src="">
+                <hr>
+                <a class="button" href="#" onclick="dll()">Download</a>
+            </div>
+        </div>
+
+        <div class="popup" id="popup-2">
+            <div class="overlay"></div>
+            <div class="content">
+                <div class="close-btn" onclick="toggle_error()">&times;</div>
+                <h1 style="color: red">Error</h1>
+                <hr>
+                <h3 id="error-msg"></h3>
+            </div>
+        </div>
+    </div>
+    <script src="/assets/scripts/app.js"></script>
+</div>
+
+</body>
+</html>
