@@ -1,0 +1,62 @@
+{
+    // Width of image. (int)
+    "w": 400,
+    // Height of image. (int)
+    "h": 240,
+    // Background color of image. (RGB value, a valid color name or hexadecimal color)
+    "bg_color": "#1E1E1E",
+
+    // Height of bar. (int)
+    "bar_h": 40,
+    // Color of bar. (RGB value, a valid color name or hexadecimal color)
+    "bar_color": "#252526",
+
+    // Name of tab. (string)
+    "tab_name": "main.py",
+    // Color of tab. (RGB value, a valid color name or hexadecimal color) #1E1E1E
+    "tab_color": "#1E1E1E",
+    // Color of text inside the tab. (RGB value, a valid color name or hexadecimal color)
+    "tab_text_color": "#969696",
+    // Url of font used in the text inside the tab. (string)
+    "tab_font": "fonts/consolas-italic.ttf",
+    // Size of font used in the text inside the tab. (int)26
+    "tab_font_size": 26,
+
+
+    // Spacing between the icons and the text inside the tab. (int)
+    "spacing": 10,
+    // Margins between the icons and the rectangle of the tab. (int)
+    "margins": 20,
+
+    // Verify if we should render the underline or not. (bool)
+    "show_tab_line": true,
+    // Color of the underline of tab. (RGB value, a valid color name or hexadecimal color)
+    "tab_line_color": "#FFC953",
+    // Width of the underline of tab. (int)
+    "tab_line_width": 3,
+
+    // Verify if we should render the dropshadow or not. (bool)
+    "show_blur": true,
+    // Color of the dropshadow. (RGB value, a valid color name or hexadecimal color)
+    "blur_color": "#000000",
+    // Radius of the blur of the dropshadow. (int)
+    "blur_radius": 5,
+
+    // Url of icon used for representing the programming language used in the code. (string)
+    "language_icon": "icons/python.png",
+    // Url of icon used for representing the close button.
+    "close_icon": "icons/close.png",
+    // Size of language icon and close_icon. (list of length 2)
+    "icon_size": [25, 25],
+
+    // The programming language used in the code. (string)
+    "language": "python",
+    // Url of the font used in the code. (string)
+    "code_font": "consolas",
+    // Size of font used in the code. (int)
+    "code_font_size": 26,
+    // The extra spacing between each line of code. (int)
+    "code_line_padding": 20,
+    // Style of code from pygments's styles. (string)
+    "code_style": "dracula"
+}
